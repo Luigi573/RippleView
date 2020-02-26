@@ -1,0 +1,2 @@
+include ':lib', ':demo'
+rootProject.name='RippleView'
