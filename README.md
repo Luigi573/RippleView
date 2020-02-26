@@ -1,6 +1,31 @@
-# RippleView
+# RippleView ![](https://jitpack.io/v/Luigi573/RippleView.svg)
 
 波纹状加载动画View
+
+## Usage
+
+**Step 1.** Add the JitPack repository to your build file
+
+Add it in your root build.gradle at the end of repositories:
+
+**DO NOT add to buildscript's dependencies** 
+
+```groovy
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+**Step 2.** Add the dependency
+
+```groovy
+dependencies {
+    implementation 'com.github.Luigi573:RippleView:1.0.0'
+}
+```
 
 ```kotlin
 //动画周期 app:animate_duration
